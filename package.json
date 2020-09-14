@@ -1,0 +1,39 @@
+{
+  "name": "venia-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@adobe/aem-core-cif-react-components": "^1.3.0",
+    "@babel/preset-env": "^7.11.5",
+    "@magento/peregrine": "3.0.0",
+    "apollo-client": "^2.6.3",
+    "css-loader": "^4.3.0",
+    "graphql": "^14.0.0",
+    "i18next": "^19.7.0",
+    "react": "^16.13.1",
+    "react-apollo": "~2.5.3",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.2",
+    "react-router-dom": "~5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "postcss": "^7.0.32",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-loader": "^4.0.1",
+    "postcss-normalize": "^9.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
